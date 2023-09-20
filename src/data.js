@@ -28,7 +28,7 @@ export const projects = [
       description:
         "I created a pre-draft tool for upcoming NFL seasons, offering users insights into potential drafting patterns, allowing them to anticipate their league mates' drafting strategies.",
       image: "./draft-intel-league-patterns.png",
-      link: "https://pythonbootcamp.com",
+      link: "https://draftwizard.fantasypros.com/football/draft-intel/",
     },
   ];
 
