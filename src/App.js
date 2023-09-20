@@ -5,8 +5,11 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 //import Testimonials from "./components/Testimonials";
+import { ReactGA } from 'react-ga';
 
 export default function App() {
+  ReactGA.initialize('UA-13212828-3');
+  ReactGA.pageview('/');
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
