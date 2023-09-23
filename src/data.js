@@ -32,7 +32,7 @@ export const projects = [
     },
   ];
 
-  export const skills = ["Javascript", "Vue", "Angular", "LESS", "SASS", "Tailwind", "Bootstrap", "Git", "Figma", "AWS", "HighCharts", "Storybook", "Agile", "Google Analytics"];
+  export const skills = ["Javascript", "Vue", "Angular", "LESS", "SASS", "Tailwind", "Bootstrap", "Git", "Consume APIs", "Figma", "AWS", "HighCharts", "Storybook", "Agile", "Google Analytics", "WCAG"];
 
   export const testimonials = [
     {
