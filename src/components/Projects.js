@@ -15,16 +15,16 @@ export default function Projects() {
             For over six years, I've specialized in crafting websites for college and university athletic departments. Most of my projects are web pages tailored to meet their specific requirements.
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 h-full">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
-              <div className="flex relative">
+              className="sm:w-1/3 w-100 h-100 p-4">
+              <div className="flex relative h-full">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  className={`${project.title === 'College Football Playoff' || project.title === 'NCHC TV'? 'project-image' : ''} absolute inset-0 w-full h-full object-cover object-center`}
                   src={project.image}
                 />
                 <div className="project-overlay px-8 py-10 relative z-8 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">

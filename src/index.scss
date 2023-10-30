@@ -20,3 +20,9 @@ code {
 .project-overlay{
   transition:.25s;
 }
+
+.project-image{
+  object-fit: contain;
+  background: white;
+  padding: 24px 0;
+}
